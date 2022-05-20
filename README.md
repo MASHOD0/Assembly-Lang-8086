@@ -29,3 +29,14 @@ mul al; alXal=AX
 ```asm
 mul cx; cx X AX = DX AX
 ```
+# div-divison
+div opr1
+```asm
+div 05;invalid
+```
+```asm
+div bl; al/bl
+```
+```asm
+div al; al/al
+```
